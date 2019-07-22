@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="LazGL.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="171"/>
+        <CursorPos X="4" Y="187"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="usr/share/fpcsrc/packages/extra/opengl/glut.pp"/>
+        <UnitName Value="Glut"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <CursorPos Y="12"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="GL.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="1441"/>
+        <CursorPos X="3" Y="1521"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Textures.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="21" Y="6"/>
+        <UsageCount Value="12"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="D:/Language/Lazarus/fpc/3.0.4/source/packages/opengl/src/gl.pp"/>
+        <UnitName Value="GL"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1209"/>
+        <CursorPos X="3" Y="1226"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="D:/Language/Lazarus/fpc/3.0.4/source/rtl/win/wininc/ascdef.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="10" Y="117"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="D:/Language/Lazarus/fpc/3.0.4/source/packages/opengl/src/gl.pp"/>
+        <UnitName Value="GL"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1104"/>
+        <CursorPos Y="831"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="D:/Language/Lazarus/fpc/3.0.4/source/packages/opengl/src/glext.pp"/>
+        <UnitName Value="GLext"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="927"/>
+        <CursorPos X="13" Y="940"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="170" TopLine="165"/>
+      </Position1>
+      <Position2>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="172" TopLine="165"/>
+      </Position2>
+      <Position3>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="174" TopLine="165"/>
+      </Position3>
+      <Position4>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="176" TopLine="165"/>
+      </Position4>
+      <Position5>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="177" TopLine="165"/>
+      </Position5>
+      <Position6>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="179" TopLine="165"/>
+      </Position6>
+      <Position7>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="180" TopLine="165"/>
+      </Position7>
+      <Position8>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position8>
+      <Position9>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="133" TopLine="121"/>
+      </Position9>
+      <Position10>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="134" TopLine="121"/>
+      </Position10>
+      <Position11>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="136" TopLine="121"/>
+      </Position11>
+      <Position12>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="138" TopLine="121"/>
+      </Position12>
+      <Position13>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="159" TopLine="148"/>
+      </Position13>
+      <Position14>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="162" TopLine="148"/>
+      </Position14>
+      <Position15>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="163" TopLine="148"/>
+      </Position15>
+      <Position16>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="185" TopLine="173"/>
+      </Position16>
+      <Position17>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="133" TopLine="120"/>
+      </Position17>
+      <Position18>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="134" TopLine="120"/>
+      </Position18>
+      <Position19>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="136" TopLine="120"/>
+      </Position19>
+      <Position20>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="138" TopLine="120"/>
+      </Position20>
+      <Position21>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="159" TopLine="148"/>
+      </Position21>
+      <Position22>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="162" TopLine="148"/>
+      </Position22>
+      <Position23>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="163" TopLine="148"/>
+      </Position23>
+      <Position24>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="186" TopLine="174"/>
+      </Position24>
+      <Position25>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="187" TopLine="174"/>
+      </Position25>
+      <Position26>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="287" TopLine="268"/>
+      </Position26>
+      <Position27>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="288" TopLine="268"/>
+      </Position27>
+      <Position28>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="289" TopLine="268"/>
+      </Position28>
+      <Position29>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="282" Column="61" TopLine="269"/>
+      </Position29>
+      <Position30>
+        <Filename Value="LazGL.lpr"/>
+        <Caret Line="187" Column="44" TopLine="169"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
