@@ -105,28 +105,6 @@ begin
   GL.glEnd();
 end;
 
-procedure MYQUAD2( Tex : integer);
-begin
-  Gl.glBindTexture(Gl.GL_TEXTURE_2D, Tex);
-  GL.glBegin(GL.GL_QUADS);
-  Gl.glTexCoord2f(0, 0);  gl.glVertex3f( -2.0,  2.0,  0.0); // 1
-  Gl.glTexCoord2f(0, 2.5);  gl.glVertex3f( -2.0, -2.0,  0.0); // 2
-  Gl.glTexCoord2f(2.5, 2.5);  gl.glVertex3f(  2.0, -2.0,  0.0); // 3
-  Gl.glTexCoord2f(2.5, 0);  gl.glVertex3f(  2.0,  2.0,  0.0); // 4
-  GL.glEnd();
-end;
-
-
-procedure MYTRIANGLE( Tex : integer);
-begin
-  Gl.glBindTexture(Gl.GL_TEXTURE_2D, Tex);
-  GL.glBegin(GL.GL_TRIANGLES);
-  Gl.glTexCoord2f(0.5, 1);  gl.glVertex3f(  0.0,  2.0,  0.0); // 1
-  Gl.glTexCoord2f(0, 0);  gl.glVertex3f( -2.0, -2.0,  0.0); // 2
-  Gl.glTexCoord2f(1, 0);  gl.glVertex3f(  2.0, -2.0,  0.0); // 3
-  GL.glEnd();
-end;
-
 //****************************************************//
 //********         Загрузка текстуры        **********//
 //****************************************************//
@@ -143,7 +121,7 @@ begin
 
   if ( TextureImage <> Nil ) then begin
     // Создадим текстуру
-    glEnable(GL_TEXTURE_2D);
+    //glEnable(GL_TEXTURE_2D);
     glGenTextures( 1, @texID );
     glBindTexture( GL_TEXTURE_2D, texID );
 
@@ -179,14 +157,14 @@ begin
 
   //glEnable( GL_TEXTURE_2D );
 
-  glEnable( GL_ALPHA_TEST );
-  glAlphaFunc( GL_GREATER, 0.0 );
+  //glEnable( GL_ALPHA_TEST );
+  //glAlphaFunc( GL_GREATER, 0.0 );
+  // glEnable ( GL_BLEND );
+  //glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-  glEnable ( GL_BLEND );
-  glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
- //glBlendEquation( GL_FUNC_ADD );
- // Метод в текущей версии FPC 3.0.4 падает в исключение
- // возможно в след версиях это исправят
+  //glBlendEquation( GL_FUNC_ADD );
+  // Метод в текущей версии FPC 3.0.4 падает в исключение
+  // возможно в след версиях это исправят
 
 
  Texture2 := LoadTextere('data\tex1.tga');
